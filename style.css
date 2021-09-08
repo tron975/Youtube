@@ -60,21 +60,25 @@ main {
     display: flex;
     align-items: center;
     transition: all 0.5s ease;
-    padding: 0.5em 0.6em 0.5em 0.8em;
+    width: max-content;
+    height: 5rem;
+    width: 5rem;
 }
 
 .nav-bar:hover a {
-    filter:grayscale(0) opacity(1);
-    color: red;
 }
 
 .nav-bar:hover a:hover {
     background-color: black;
+    filter:grayscale(0) opacity(1);
+
+    color: red;
 }
 
 .nav-options {
     display: flex;
     align-items: center;
+    gap: 1.5rem;
     flex-direction: column;
     padding: 0;
     margin: 0;
