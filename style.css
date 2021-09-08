@@ -39,7 +39,7 @@ main {
     position: fixed;
     height: 100vh !important;
     width: 5rem;
-    transition: width 0.3s ease;
+    transition: width 0.5s ease;
 
 }
 
@@ -53,13 +53,13 @@ main {
 }
 
 .nav-bar a {
-    filter: grayscale(100%) opacity(0.7);
+    filter: grayscale(90%) opacity(0.7);
     font-size: 2.5em;
     transition: color 300ms ease;
     text-decoration: none;
     display: flex;
     align-items: center;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
     padding: 0.5em 0.6em 0.5em 0.8em;
 }
 
